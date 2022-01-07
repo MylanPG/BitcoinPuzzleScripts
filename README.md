@@ -17,6 +17,7 @@ This will email you whatever is found, as well as the found.txt file.
 
 Steps to add email notifications:
 
+```
 Import yagmail
 
  if VAR == "{RIPEMD-160 STR}":
@@ -34,3 +35,10 @@ Import yagmail
         contents=body,
         attachments = filename,)
   break
+  ```
+ 
+To find out more about the Bitcoin Puzzle Challenge, visit:
+https://privatekeys.pw/puzzles/bitcoin-puzzle-tx
+  
+If you wish to find the RIPEMD-160 of a Bitcoin Address, you can check that here:
+https://gobittest.appspot.com/Address
